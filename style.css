@@ -1,0 +1,106 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+html{
+    display: block;
+}
+
+body {
+	margin: 20px 60px;
+    font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #fafafa;
+	color: #8B8B8B;
+}
+
+
+.sloupec {
+	width: 100%;
+	margin: 30px;
+	padding: 30px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+	justify-content: space-between;
+}
+
+
+h1 {
+	font-size: 28px;
+	text-align:center;
+	color: #000000;
+	margin: 20px;
+}
+h2 {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	margin:20px;
+}
+
+.cestovatel {
+	width: 100%;
+	width: 350px;
+    height: 290px;
+	margin: 30px auto;
+    padding:30px;
+	display: flex;
+    align-items: center;
+
+
+}
+
+.tlacitka {
+	width: 100%;
+	width:195px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.prvni {
+	align-items: center;
+	background-color: blue;
+	color:#fafafa; 
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 50px;	
+	margin-bottom:10px ;
+		
+}
+
+.druhy{
+background-color: #8B8B8B;
+color:#fafafa;
+border-radius: 50px;
+margin-bottom: 50px;
+padding: 10px 10px ;
+width: 220px;
+text-align: center;
+}
+
+.sluzby {
+	display: flex;
+	margin: 50px;
+}
+
+
+.obsah{
+ text-align: center;
+}
+
+
+
+@media screen and (min-width:800px) {
+
+	
+}
+
+@media screen and (min-width:1100px) {
+.sloupec {
+	display: flex;
+	flex-wrap: wrap;}	
+}
+
